@@ -1,2 +1,14 @@
-# USVItide
-Files related to a study of seawater microbiomes in the US Virgin Islands
+# Microbial and nutrient dynamics in mangrove, reef, and seagrass waters over tidal and diurnal time scales
+
+**Purpose of Repository**: In an effort to make my findings and results reproducible, I have included within this repository all data and scripts needed to recreate the figures presented in the paper, _Microbial and nutrient dynamics in mangrove, reef, and seagrass waters over tidal and diurnal time scales_. The data are included as .txt documents that can be downloaded in Excel. The scripts are R scripts. The analyses for the manuscript were initially run in R v 3.4.0, 2017-04-21. These scripts will also work in R v 3.6.1, which is the version I used to collate the R code for each figure.
+
+**Abstract**: In coral reefs and adjacent seagrass meadow and mangrove environments, short temporal scales (i.e. tidal, diurnal) may have important influences on ecosystem processes and community structure, but these scales are rarely studied. This study examines how tidal and diurnal forcings influence pelagic microorganisms and nutrient dynamics in three important and adjacent coastal biomes: mangroves, coral reefs, and seagrass beds. We sampled for microbial (bacteria and archaea) community composition, cell abundances and environmental parameters (temperature, salinity, and inorganic nutrients) at nine coastal, tropical sites on the southern shore of St. John, U.S. Virgin Islands that spanned 4 km in distance (4 coral reefs, 2 seagrass meadows and 3 mangrove sites within 2 larger systems). Eight samplings occurred over a 48-hour period, simultaneously capturing day and night microbial dynamics and two tidal cycles across the coastal biomes. The seagrass and reef sites exhibited relatively consistent environmental conditions and microbial community structure, but were dominated by shifts in picocyanobacterial abundances that are most likely attributed to diel dynamics. In contrast, mangrove ecosystems exhibited substantial daily shifts in environmental parameters, heterotrophic cell abundances and microbial community structure that are consistent with the tidal cycle. Differential abundance analysis of mangrove-associated microorganisms revealed enrichment of pelagic, oligotrophic associated taxa during high tide and enrichment of putative sediment-associated microbes during low tide. Our study underpins the importance of short temporal scales in structuring coastal microbial communities and nutrient dynamics, with diel and tidal cycles contributing to a highly dynamic microbial environment in mangroves, and time of day likely contributing to microbial dynamics in seagrass and reef biomes. These results suggest that both tide and time of day play an important role in microbial processes in these critical coastal habitats.
+
+**Overview of Contents**:
+1. DADA2 Pipeline - R Script
+2. Metadata file
+3. ASV table (from DADA2)
+4. Taxonomy table (SILVA, from DADA2)
+5. R Script to reproduce figures
+6. Sea level data ("Water Levels Lameshur Bay")
+7. Shapefile of USA and Territories
